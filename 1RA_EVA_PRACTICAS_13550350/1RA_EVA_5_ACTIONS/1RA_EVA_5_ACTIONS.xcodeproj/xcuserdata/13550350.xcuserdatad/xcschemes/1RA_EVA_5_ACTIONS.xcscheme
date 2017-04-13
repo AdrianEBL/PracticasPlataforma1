@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0700"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "103648351E4A385900F9A4F1"
+               BuildableName = "1RA_EVA_5_ACTIONS.app"
+               BlueprintName = "1RA_EVA_5_ACTIONS"
+               ReferencedContainer = "container:1RA_EVA_5_ACTIONS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "103648491E4A385900F9A4F1"
+               BuildableName = "1RA_EVA_5_ACTIONSTests.xctest"
+               BlueprintName = "1RA_EVA_5_ACTIONSTests"
+               ReferencedContainer = "container:1RA_EVA_5_ACTIONS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "103648541E4A385900F9A4F1"
+               BuildableName = "1RA_EVA_5_ACTIONSUITests.xctest"
+               BlueprintName = "1RA_EVA_5_ACTIONSUITests"
+               ReferencedContainer = "container:1RA_EVA_5_ACTIONS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "103648351E4A385900F9A4F1"
+            BuildableName = "1RA_EVA_5_ACTIONS.app"
+            BlueprintName = "1RA_EVA_5_ACTIONS"
+            ReferencedContainer = "container:1RA_EVA_5_ACTIONS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "103648351E4A385900F9A4F1"
+            BuildableName = "1RA_EVA_5_ACTIONS.app"
+            BlueprintName = "1RA_EVA_5_ACTIONS"
+            ReferencedContainer = "container:1RA_EVA_5_ACTIONS.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "103648351E4A385900F9A4F1"
+            BuildableName = "1RA_EVA_5_ACTIONS.app"
+            BlueprintName = "1RA_EVA_5_ACTIONS"
+            ReferencedContainer = "container:1RA_EVA_5_ACTIONS.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

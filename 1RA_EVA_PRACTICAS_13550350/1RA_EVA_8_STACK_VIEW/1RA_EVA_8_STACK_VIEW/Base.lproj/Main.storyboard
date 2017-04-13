@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_RA_EVA_8_STACK_VIEW" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WmX-Yt-H6W">
+                                <rect key="frame" x="187" y="28" width="226" height="39"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIENDA DE DEPORTES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qit-U0-uX9">
+                                        <rect key="frame" x="0.0" y="0.0" width="226" height="27"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La tienda de deportes de su elección" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="En0-KO-6e1">
+                                        <rect key="frame" x="0.0" y="27" width="226" height="12"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cH6-hf-omI">
+                                <rect key="frame" x="219" y="550" width="163" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.88831067409999998" green="0.93228963229999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="SIGNIN FOR SHOPPING">
+                                    <color key="titleColor" red="0.075753472745418549" green="0.17774462699890137" blue="0.80972129106521606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qVO-If-FKG">
+                                <rect key="frame" x="30" y="75" width="540" height="339"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baseball" translatesAutoresizingMaskIntoConstraints="NO" id="bX9-FP-0Qq">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="339"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketball" translatesAutoresizingMaskIntoConstraints="NO" id="6hg-GT-jIc">
+                                        <rect key="frame" x="180" y="0.0" width="180" height="339"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football" translatesAutoresizingMaskIntoConstraints="NO" id="o7q-uE-J19">
+                                        <rect key="frame" x="360" y="0.0" width="180" height="339"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qVO-If-FKG" secondAttribute="height" multiplier="180:113" id="M6l-qF-n9A"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.73160453719999996" blue="0.47942699599999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WmX-Yt-H6W" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="2e1-jg-hzz"/>
+                            <constraint firstItem="cH6-hf-omI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BiZ-PN-FyN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qVO-If-FKG" secondAttribute="trailing" constant="10" id="GWd-J6-rzv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cH6-hf-omI" secondAttribute="bottom" constant="20" id="Gld-uc-kgL"/>
+                            <constraint firstItem="qVO-If-FKG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="OCS-aE-3v9"/>
+                            <constraint firstItem="qVO-If-FKG" firstAttribute="top" secondItem="WmX-Yt-H6W" secondAttribute="bottom" constant="8" id="hSu-dg-4fl"/>
+                            <constraint firstItem="WmX-Yt-H6W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y00-W7-AVY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="421" y="368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="baseball" width="180" height="339"/>
+        <image name="basketball" width="180" height="339"/>
+        <image name="football" width="180" height="339"/>
+    </resources>
+</document>

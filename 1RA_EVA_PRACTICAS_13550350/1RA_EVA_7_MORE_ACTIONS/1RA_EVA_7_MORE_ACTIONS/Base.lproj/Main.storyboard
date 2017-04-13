@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_RA_EVA_7_MORE_ACTIONS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Lamborghini_veneno_veneno_oficial_1_1440x655c" translatesAutoresizingMaskIntoConstraints="NO" id="hRj-Mh-wf6">
+                                <rect key="frame" x="180" y="28" width="240" height="128"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="3ff-mn-SIV"/>
+                                    <constraint firstAttribute="width" constant="240" id="ZEQ-L0-jns"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="NOMBRE: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miI-RX-izF">
+                                <rect key="frame" x="20" y="189" width="80" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="PF6-Dq-Je7"/>
+                                    <constraint firstAttribute="width" constant="80" id="UPH-eJ-tDQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jNb-wm-iqu">
+                                <rect key="frame" x="126" y="185" width="454" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDownEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="d69-7M-Esq"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpd-8k-THK">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="09T-dh-qcS">
+                                <rect key="frame" x="126" y="223" width="454" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDownEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="VUa-9O-7pd"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="EDAD: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pha-y0-M6Z">
+                                <rect key="frame" x="20" y="227" width="80" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="2QA-Vq-BiH"/>
+                                    <constraint firstAttribute="height" constant="21" id="djz-Wx-dko"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.88831067409999998" green="0.93228963229999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="jNb-wm-iqu" firstAttribute="leading" secondItem="miI-RX-izF" secondAttribute="trailing" constant="26" id="2JT-kX-g0d"/>
+                            <constraint firstItem="hRj-Mh-wf6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="3Rr-05-kr0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="09T-dh-qcS" secondAttribute="trailing" id="8sn-bl-e0C"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="pha-y0-M6Z" secondAttribute="leading" id="ELd-iw-j5W"/>
+                            <constraint firstItem="hRj-Mh-wf6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FXx-uu-We8"/>
+                            <constraint firstItem="09T-dh-qcS" firstAttribute="top" secondItem="jNb-wm-iqu" secondAttribute="bottom" constant="8" id="J2g-x2-2AM"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="miI-RX-izF" secondAttribute="leading" id="ax0-Vl-CjQ"/>
+                            <constraint firstItem="zpd-8k-THK" firstAttribute="top" secondItem="09T-dh-qcS" secondAttribute="bottom" constant="32" id="c3n-ag-5wb"/>
+                            <constraint firstItem="zpd-8k-THK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ghf-Rz-BhK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jNb-wm-iqu" secondAttribute="trailing" id="m9z-QT-Npl"/>
+                            <constraint firstItem="jNb-wm-iqu" firstAttribute="top" secondItem="hRj-Mh-wf6" secondAttribute="bottom" constant="29" id="nU6-pa-7SK"/>
+                            <constraint firstItem="miI-RX-izF" firstAttribute="centerY" secondItem="jNb-wm-iqu" secondAttribute="centerY" id="r3E-cd-vTO"/>
+                            <constraint firstItem="pha-y0-M6Z" firstAttribute="centerY" secondItem="09T-dh-qcS" secondAttribute="centerY" id="u7k-Ur-RZP"/>
+                            <constraint firstItem="09T-dh-qcS" firstAttribute="leading" secondItem="pha-y0-M6Z" secondAttribute="trailing" constant="26" id="vIW-HI-0UG"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="LQd-hO-cY5" appends="YES" id="Ywd-zE-lAz"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="txtFlEdad" destination="09T-dh-qcS" id="hF5-LQ-4rh"/>
+                        <outlet property="txtFlNombre" destination="jNb-wm-iqu" id="drH-xf-GVN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="LQd-hO-cY5">
+                    <connections>
+                        <action selector="onTapGestureReconizer:" destination="BYZ-38-t0r" id="PKh-Vm-9Wi"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-536" y="403"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Lamborghini_veneno_veneno_oficial_1_1440x655c" width="1440" height="655"/>
+    </resources>
+</document>

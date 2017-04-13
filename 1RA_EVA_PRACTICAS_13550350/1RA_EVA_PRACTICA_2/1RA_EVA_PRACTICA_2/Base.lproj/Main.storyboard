@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_RA_EVA_PRACTICA_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="PqF-A1-MaI">
+                                <rect key="frame" x="20" y="28" width="560" height="552"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DFb-XN-FdN">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="276"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="galaxyS7" translatesAutoresizingMaskIntoConstraints="NO" id="78E-c2-MZm">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="276"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone7" translatesAutoresizingMaskIntoConstraints="NO" id="iWq-Ac-YxE">
+                                                <rect key="frame" x="280" y="0.0" width="280" height="276"/>
+                                                <animations/>
+                                            </imageView>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Syf-6N-dy2">
+                                        <rect key="frame" x="0.0" y="276" width="560" height="276"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qZM-yG-cY1">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="276"/>
+                                                <animations/>
+                                                <string key="text">SAMSUNG
+
+GALAXY S7
+
+El Samsung Galaxy S7 es un móvil de gama alta con diseño premium, fabricado sobre una carcasa de metal recubierta con una capa de cristal. Además, el Galaxy S7 es sumergible en el agua (hasta 1,5 metros y 30 minutos) al disponer de certificación IP68. Compatible con las redes 4G. Cuenta también con conexión NFC.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gr3-t1-A69">
+                                                <rect key="frame" x="280" y="0.0" width="280" height="276"/>
+                                                <animations/>
+                                                <string key="text">APPLE
+
+iPhone 7
+
+El mejor de su clase. Nuevos y más avanzados sistemas de cámara. Mejora el rendimiento y la duración de batería. Carcaza que resiste salpicaduras. Único sonido envolvente con bocinas estéreo. La pantalla más brillante y con mayor cantidad de colores. Máxima potencia en un diseño increíble.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PqF-A1-MaI" secondAttribute="height" multiplier="70:69" id="Abc-YQ-0ec"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.54690711439999995" green="0.76138800139999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PqF-A1-MaI" secondAttribute="bottom" constant="20" id="JNK-zF-zc9"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="PqF-A1-MaI" secondAttribute="leading" id="dyJ-OA-Wso"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PqF-A1-MaI" secondAttribute="trailing" id="i2x-aZ-irS"/>
+                            <constraint firstItem="PqF-A1-MaI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="pIF-pC-fRY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17" y="404"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="galaxyS7" width="380" height="380"/>
+        <image name="iphone7" width="468" height="600"/>
+    </resources>
+</document>

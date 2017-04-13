@@ -1,0 +1,35 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 327,
+          "top" : 327,
+          "right" : 720,
+          "left" : 719
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "Lamborghini_veneno_veneno_oficial_1_1440x655c.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
