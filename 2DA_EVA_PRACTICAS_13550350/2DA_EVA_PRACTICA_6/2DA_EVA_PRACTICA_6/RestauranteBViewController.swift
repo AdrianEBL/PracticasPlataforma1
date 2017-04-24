@@ -16,6 +16,7 @@ class RestauranteBViewController: UIViewController, UIPickerViewDataSource, UIPi
     @IBOutlet weak var imgvwTwo: UIImageView!
     
     var sTexto = ""
+    var sImagen = ""
     let asData = ["Pan", "Tortilla", "Tostada", "Galleta", "Panque"]
     let secData = ["Huevos", "Frijoles", "Jamon", "Tocino", "Omelet"]
     let imgPkF1 = ["barrafina", "bourkestreetbakery", "cafedeadend", "cafeloisl", "cafelore"]
@@ -27,7 +28,9 @@ class RestauranteBViewController: UIViewController, UIPickerViewDataSource, UIPi
         
         let acMostrar = UIAlertController(title: "Su platillo tendrá:", message: dataComp1+" y "+dataComp2, preferredStyle: .Alert)
         let acBoton = UIAlertAction(title: "OK", style: .Default, handler: nil)
+        let compartirAct = UIAlertAction(title: "Compartir",style: .Default, handler: compartir)
         acMostrar.addAction(acBoton)
+        acMostrar.addAction(compartirAct)
         presentViewController(acMostrar, animated: true, completion: nil)
     }
     
@@ -70,6 +73,15 @@ class RestauranteBViewController: UIViewController, UIPickerViewDataSource, UIPi
         } else {
             return secData.count
         }
+    }
+    
+    func compartir(alert: UIAlertAction) ->Void{
+        
+        let miTxt = "Vine a comer en " + sTexto
+        let miImg = UIImage(named: sImagen)
+        let mensa = "Ingredientes del platillo: " + asData[pkrvwPlatillo.selectedRowInComponent(0)] + " y " + secData[pkrvwPlatillo.selectedRowInComponent(1)]
+        let actController = UIActivityViewController(activityItems: [miTxt, mensa, miImg!], applicationActivities: nil)
+        presentViewController(actController, animated:true,completion:nil)
     }
     
     /*

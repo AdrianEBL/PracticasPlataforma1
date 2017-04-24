@@ -107,30 +107,35 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             if let indexPath = tbvwTabla.indexPathForSelectedRow {
                 let miViewController = segue.destinationViewController as! RestauranteAViewController
                 miViewController.sTexto = misDatos[indexPath.row]
+                miViewController.sImagen = imgFondo[indexPath.row]
             }
         }
         if segue.identifier == "restauranteb" {
             if let indexPath = tbvwTabla.indexPathForSelectedRow {
                 let miViewController = segue.destinationViewController as! RestauranteBViewController
                 miViewController.sTexto = misDatos[indexPath.row]
+                miViewController.sImagen = imgFondo[indexPath.row]
             }
         }
         if segue.identifier == "restaurantec" {
             if let indexPath = tbvwTabla.indexPathForSelectedRow {
                 let miViewController = segue.destinationViewController as! RestauranteCViewController
                 miViewController.sTexto = misDatos[indexPath.row]
+                miViewController.sImagen = imgFondo[indexPath.row]
             }
         }
         if segue.identifier == "restauranted" {
             if let indexPath = tbvwTabla.indexPathForSelectedRow {
                 let miViewController = segue.destinationViewController as! RestauranteDViewController
                 miViewController.sTexto = misDatos[indexPath.row]
+                miViewController.sImagen = imgFondo[indexPath.row]
             }
         }
         if segue.identifier == "restaurantee" {
             if let indexPath = tbvwTabla.indexPathForSelectedRow {
                 let miViewController = segue.destinationViewController as! RestauranteEViewController
                 miViewController.sTexto = misDatos[indexPath.row]
+                miViewController.sImagen = imgFondo[indexPath.row]
             }
         }
     }
