@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0700"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "101EA6FF1EB2506C002472D7"
+               BuildableName = "3RA_EVA_1_TAB_CONTROLLER.app"
+               BlueprintName = "3RA_EVA_1_TAB_CONTROLLER"
+               ReferencedContainer = "container:3RA_EVA_1_TAB_CONTROLLER.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "101EA7131EB2506D002472D7"
+               BuildableName = "3RA_EVA_1_TAB_CONTROLLERTests.xctest"
+               BlueprintName = "3RA_EVA_1_TAB_CONTROLLERTests"
+               ReferencedContainer = "container:3RA_EVA_1_TAB_CONTROLLER.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "101EA71E1EB2506D002472D7"
+               BuildableName = "3RA_EVA_1_TAB_CONTROLLERUITests.xctest"
+               BlueprintName = "3RA_EVA_1_TAB_CONTROLLERUITests"
+               ReferencedContainer = "container:3RA_EVA_1_TAB_CONTROLLER.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "101EA6FF1EB2506C002472D7"
+            BuildableName = "3RA_EVA_1_TAB_CONTROLLER.app"
+            BlueprintName = "3RA_EVA_1_TAB_CONTROLLER"
+            ReferencedContainer = "container:3RA_EVA_1_TAB_CONTROLLER.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "101EA6FF1EB2506C002472D7"
+            BuildableName = "3RA_EVA_1_TAB_CONTROLLER.app"
+            BlueprintName = "3RA_EVA_1_TAB_CONTROLLER"
+            ReferencedContainer = "container:3RA_EVA_1_TAB_CONTROLLER.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "101EA6FF1EB2506C002472D7"
+            BuildableName = "3RA_EVA_1_TAB_CONTROLLER.app"
+            BlueprintName = "3RA_EVA_1_TAB_CONTROLLER"
+            ReferencedContainer = "container:3RA_EVA_1_TAB_CONTROLLER.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

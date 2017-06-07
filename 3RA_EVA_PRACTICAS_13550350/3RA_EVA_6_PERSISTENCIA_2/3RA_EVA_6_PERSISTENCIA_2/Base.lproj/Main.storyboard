@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_RA_EVA_6_PERSISTENCIA_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="y9K-Px-GTk">
+                                <rect key="frame" x="18" y="28" width="564" height="31"/>
+                                <animations/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9cD-V5-Ik1">
+                                <rect key="frame" x="18" y="66" width="564" height="31"/>
+                                <animations/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3Zb-n6-1Ow">
+                                <rect key="frame" x="18" y="104" width="564" height="31"/>
+                                <animations/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWX-2L-BcQ">
+                                <rect key="frame" x="20" y="142" width="71" height="30"/>
+                                <animations/>
+                                <state key="normal" title="GUARDAR"/>
+                                <connections>
+                                    <action selector="btnGuardar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yQX-ZE-Mug"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnN-8l-epr">
+                                <rect key="frame" x="20" y="180" width="85" height="30"/>
+                                <animations/>
+                                <state key="normal" title="VISUALIZAR"/>
+                                <connections>
+                                    <action selector="btnVisualizar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="07Z-1U-AAC"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0bF-yX-sFw">
+                                <rect key="frame" x="20" y="392" width="560" height="200"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Q2A-Gn-AOB"/>
+                                    <constraint firstAttribute="width" constant="560" id="rgl-Q3-WEG"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFORMACION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDt-I8-OPt">
+                                <rect key="frame" x="20" y="218" width="115" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MDt-I8-OPt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="59r-w1-q3N"/>
+                            <constraint firstItem="y9K-Px-GTk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5y7-7r-mpt"/>
+                            <constraint firstItem="9cD-V5-Ik1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8xh-W9-T8U"/>
+                            <constraint firstItem="0bF-yX-sFw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Aho-hh-NeR"/>
+                            <constraint firstItem="0bF-yX-sFw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Emv-dR-cfI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0bF-yX-sFw" secondAttribute="bottom" constant="8" id="KYP-1N-4Ao"/>
+                            <constraint firstItem="y9K-Px-GTk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Lml-DY-oAl"/>
+                            <constraint firstItem="sWX-2L-BcQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="NLv-AC-8k6"/>
+                            <constraint firstItem="sWX-2L-BcQ" firstAttribute="top" secondItem="3Zb-n6-1Ow" secondAttribute="bottom" constant="8" id="ORj-sK-Xg9"/>
+                            <constraint firstItem="y9K-Px-GTk" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Qgn-zd-bsv"/>
+                            <constraint firstItem="RnN-8l-epr" firstAttribute="top" secondItem="sWX-2L-BcQ" secondAttribute="bottom" constant="8" id="RnS-Po-tm2"/>
+                            <constraint firstItem="RnN-8l-epr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="T2z-VL-jGO"/>
+                            <constraint firstItem="MDt-I8-OPt" firstAttribute="top" secondItem="RnN-8l-epr" secondAttribute="bottom" constant="8" id="WeQ-BW-bBk"/>
+                            <constraint firstItem="3Zb-n6-1Ow" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Y2o-nH-ukf"/>
+                            <constraint firstItem="3Zb-n6-1Ow" firstAttribute="top" secondItem="9cD-V5-Ik1" secondAttribute="bottom" constant="8" id="Z8A-81-1Xr"/>
+                            <constraint firstItem="9cD-V5-Ik1" firstAttribute="top" secondItem="y9K-Px-GTk" secondAttribute="bottom" constant="8" id="k2G-SO-XeY"/>
+                            <constraint firstItem="3Zb-n6-1Ow" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="nJV-Y9-p78"/>
+                            <constraint firstItem="9cD-V5-Ik1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xan-OX-rYd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblInfo" destination="MDt-I8-OPt" id="0fO-33-KKW"/>
+                        <outlet property="txtVwDatos" destination="0bF-yX-sFw" id="F4r-fu-Uwe"/>
+                        <outletCollection property="misSliders" destination="y9K-Px-GTk" collectionClass="NSMutableArray" id="nbJ-wb-exu"/>
+                        <outletCollection property="misSliders" destination="9cD-V5-Ik1" collectionClass="NSMutableArray" id="617-8Q-6PT"/>
+                        <outletCollection property="misSliders" destination="3Zb-n6-1Ow" collectionClass="NSMutableArray" id="9I1-VA-8xV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="418"/>
+        </scene>
+    </scenes>
+</document>
