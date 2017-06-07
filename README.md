@@ -1,0 +1,1 @@
+Practicas realizadas en el curso de Plataforma 1 empleando el entorno XCode y el lenguaje Swift
